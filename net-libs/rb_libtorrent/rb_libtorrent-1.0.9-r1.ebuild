@@ -19,7 +19,7 @@ LICENSE="BSD"
 SRC_URI="https://github.com/arvidn/libtorrent/archive/libtorrent-${MY_PV}.tar.gz -> ${P}.tar.gz"
 
 SLOT="0"
-KEYWORDS="~amd64 ~arm"
+KEYWORDS="~amd64 ~x86 ~arm"
 RESTRICT="test"
 
 IUSE="+crypt debug +dht doc examples python static-libs test"
