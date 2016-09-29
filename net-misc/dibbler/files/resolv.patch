@@ -1,0 +1,11 @@
+--- Misc/Portable.h.in	2016-09-29 18:53:23.045882856 +0300
++++ Misc/Portable.h.in	2016-09-29 18:54:12.352953513 +0300
+@@ -163,7 +163,7 @@
+ #define DEFAULT_SCRIPT     ""
+ #define SRVCONF_FILE       "/etc/dibbler/server.conf"
+ #define RELCONF_FILE       "/etc/dibbler/relay.conf"
+-#define RESOLVCONF_FILE    "/etc/resolv.conf"
++#define RESOLVCONF_FILE    "/var/lib/dibbler/resolv.conf"
+ #define NTPCONF_FILE       "/etc/ntp.conf"
+ #define RADVD_FILE         "/etc/dibbler/radvd.conf"
+ 
