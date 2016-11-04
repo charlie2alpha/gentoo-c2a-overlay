@@ -7,8 +7,8 @@ EAPI=5
 
 inherit eutils user systemd
 
-MINOR1="2857"
-MINOR2="d34b464"
+MINOR1="2966"
+MINOR2="3f767e7"
 
 _APPNAME="plexmediaserver"
 _USERNAME="plex"
