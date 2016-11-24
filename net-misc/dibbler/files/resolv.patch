@@ -6,6 +6,7 @@
  #define RELCONF_FILE       "/etc/dibbler/relay.conf"
 -#define RESOLVCONF_FILE    "/etc/resolv.conf"
 +#define RESOLVCONF_FILE    "/var/lib/dibbler/resolv.conf"
- #define NTPCONF_FILE       "/etc/ntp.conf"
+-#define NTPCONF_FILE       "/etc/ntp.conf"
++#define NTPCONF_FILE       "/var/lib/dibbler/ntp.conf"
  #define RADVD_FILE         "/etc/dibbler/radvd.conf"
  
