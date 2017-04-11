@@ -6,13 +6,12 @@ EAPI=6
 PYTHON_COMPAT=( python2_7 )
 inherit eutils user systemd unpacker pax-utils python-single-r1
 
-MINOR1="3557"
-MINOR2="029f6ffbf"
+MINOR_VERSION="3596-0d2d8c2be"
 
 _APPNAME="plexmediaserver"
 _USERNAME="plex"
 _SHORTNAME="${_USERNAME}"
-_FULL_VERSION="${PV}.${MINOR1}-${MINOR2}"
+_FULL_VERSION="${PV}.${MINOR_VERSION}"
 
 URI="https://downloads.plex.tv/plex-media-server"
 
@@ -48,7 +47,6 @@ PATCHES=( "${FILESDIR}/virtualenv_start_pms.patch" )
 pkg_setup() {
 	enewgroup ${_USERNAME}
 	enewuser ${_USERNAME} -1 /bin/bash /var/lib/${_APPNAME} "${_USERNAME},video"
-
 	python-single-r1_pkg_setup
 }
 
